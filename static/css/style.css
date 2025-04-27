@@ -33,6 +33,7 @@ body {
     align-items: center;
     padding: 0 2rem;
     background-color: #111;
+    flex-direction: column;
 }
 
 #navbar ul {
@@ -40,6 +41,8 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
+    flex-direction: column;
+    align-items: center;
 }
 
 #navbar ul li {
@@ -493,11 +496,20 @@ textarea {
     padding: 10%;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 ul li {
     list-style: none;
     margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 ul li a {
@@ -505,6 +517,7 @@ ul li a {
     font-size: 1.2rem;
     color: white;
     transition: all .5s;
+    margin: 5px 0;
 }
 
 ul li a:hover {
@@ -661,3 +674,27 @@ ul li a:hover {
     color: #1f1f38;
     background-color: #da7fa8;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+}
+
