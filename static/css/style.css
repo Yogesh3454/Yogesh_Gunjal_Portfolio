@@ -45,12 +45,13 @@ body {
 }
 
 #navbar ul li {
-    margin: 0px 4rem;
+    margin: 0px;
 }
 
 #navbar ul li a {
     text-decoration: none;
     padding: 0rem 0rem;
+    margin: 0px;
 
 }
 
