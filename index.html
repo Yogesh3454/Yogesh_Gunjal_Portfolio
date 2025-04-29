@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogesh Gunjal Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
@@ -20,15 +19,15 @@
                 <li><a href="#about" class="t-white roboto"><i class="fa-solid fa-user"></i> About</a></li>
                 <li><a href="#skills" class="t-white roboto"><i class="fa-solid fa-code"></i> Skills</a></li>
                 <li><a href="#project" class="t-white roboto"><i class="fa-solid fa-project-diagram"></i> Projects</a></li>
-                <li><a href="#contact" class="t-white roboto"><i class="fa-solid fa-rocket"></i> Contact</a></li>
+                <li><a href="#contact" class="t-white roboto"><i class="fa-solid fa-rocket"></i> Contact</a></li>>
             </ul>
         </div>
     </nav>
 
 <!-- home section-->
  <section id="home" class="flex s-around sw-80 m-auto">
-    <div class="home-left flex items-center">
-        <div class="home-content">
+    <div class="home-left flext items-center">
+        <div class="home content">
             <h6 class="popinss"> Hello, I'm </h6>
             <h1 class="t-white">Yogesh Gunjal</h1>
             <h4 class="t-white m-b-1 popinss">
@@ -36,7 +35,7 @@
             </h4>
 
             <div class="button-group">
-                <a href="static/pdf/Resume_Yogesh_Gunjal.pdf" target="_blank" class="btn popinss">Resume</a>
+                <a href="{% static 'pdf/Resume_Yogesh_Gunjal.pdf' %}" target="_blank" class="btn popinss">Resume</a>
                 <a href="#contact" class="btn popinss">Let's Talk</a>
             </div>
               
@@ -173,6 +172,10 @@
         <div class="skill-tile">
           <img src="static/images/etl.png" alt="ETL Tools" />
           <p>ETL Tools</p>
+        </div>
+        <div class="skill-tile">
+          <img src="static/images/git.png" alt="git" />
+          <p>GIT</p>
         </div>
         <div class="skill-tile">
           <img src="static/images/hadoop.png" alt="Hadoop" style="width: 100px; height: 60px;" />
